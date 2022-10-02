@@ -1,0 +1,36 @@
+.header{
+	display: flex;
+	position: relative;
+	align-items: center;
+	height: 100px;
+	background-color: teal;
+	width: 100%;
+	justify-content: right;
+	padding-right: 50px;
+	color: black;
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+.links{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+
+.links:hover{
+	color: white;
+}
+.footer{
+	text-align: center;
+	color: black;
+	margin: 100px 0 20px 0;
+}
+
+
+
+.layout__header{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
